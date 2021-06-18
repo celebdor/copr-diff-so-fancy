@@ -32,6 +32,9 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/
 %{_datadir}/%{name}/lib/DiffHighlight.pm
 
 %changelog
+* Fri Jun 18 2021 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-0
+- Update to v1.4.2 package with tito
+
 * Fri Jun 18 2021 Antoni Segura Puimedon <toni@sepu.cz> 1.4.2-0
 - Update to 1.4.2
 
