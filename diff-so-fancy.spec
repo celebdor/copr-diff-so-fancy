@@ -1,6 +1,6 @@
 Name: diff-so-fancy
 Version: 1.4.2
-Release: 0%{?dist}
+Release: 1%{?dist}
 Summary: Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
 
 License: MIT	
@@ -32,6 +32,10 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/
 %{_datadir}/%{name}/lib/DiffHighlight.pm
 
 %changelog
+* Fri Jun 18 2021 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-1
+- Add copr repo readme (antoni@redhat.com)
+- tito fixes (antoni@redhat.com)
+
 * Fri Jun 18 2021 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-0
 - Update to v1.4.2 package with tito
 
