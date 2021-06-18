@@ -1,4 +1,4 @@
-Name: diff-so-fancy		
+Name: diff-so-fancy
 Version: 1.4.2
 Release: 0%{?dist}
 Summary: Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
@@ -20,13 +20,13 @@ sed -i -e 's|use lib.*|use lib "%{_datadir}/%{name}/lib";|' diff-so-fancy
 
 %install
 install -vdm 0755 %{buildroot}%{_bindir}
-install -vdm 0755 %{buildroot}%{_datadir}/%{name} 
+install -vdm 0755 %{buildroot}%{_datadir}/%{name}
 install -vdm 0755 %{buildroot}%{_datadir}/%{name}/lib
 install -Dpm 0644 lib/DiffHighlight.pm %{buildroot}%{_datadir}/%{name}/lib/
 install -Dpm 0755 %{name} %{buildroot}%{_bindir}/
 
 %files
-%license LICENSE 
+%license LICENSE
 %doc README.md
 %{_bindir}/%{name}
 %{_datadir}/%{name}/lib/DiffHighlight.pm
@@ -34,9 +34,6 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/
 %changelog
 * Fri Jun 18 2021 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-0
 - Update to v1.4.2 package with tito
-
-* Fri Jun 18 2021 Antoni Segura Puimedon <toni@sepu.cz> 1.4.2-0
-- Update to 1.4.2
 
 * Wed Apr 29 2020 Antoni Segura Puimedon <toni@sepu.cz> 1.3.0-1
 - Initial package
