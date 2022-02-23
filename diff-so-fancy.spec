@@ -1,6 +1,6 @@
 Name: diff-so-fancy
 Version: 1.4.2
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
 
 License: MIT	
@@ -32,6 +32,12 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/
 %{_datadir}/%{name}/lib/DiffHighlight.pm
 
 %changelog
+* Wed Feb 23 2022 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-3
+- Use notgz tito builder (antoni@redhat.com)
+
+* Wed Feb 23 2022 Antoni Segura Puimedon <antoni@redhat.com>
+- Use notgz tito builder (antoni@redhat.com)
+
 * Wed Feb 23 2022 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-2
 - Set copr releaser (antoni@redhat.com)
 
