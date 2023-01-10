@@ -1,6 +1,6 @@
 Name: diff-so-fancy
 Version: 1.4.3
-Release: 0%{?dist}
+Release: 1%{?dist}
 Summary: Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
 
 License: MIT	
