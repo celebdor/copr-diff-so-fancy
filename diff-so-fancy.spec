@@ -32,6 +32,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/
 %{_datadir}/%{name}/lib/DiffHighlight.pm
 
 %changelog
+* Tue Jan 10 2023 Antoni Segura Puimedon <antoni@redhat.com> 1.4.3-1
+- Update the source to 1.4.3
 * Wed Feb 23 2022 Antoni Segura Puimedon <antoni@redhat.com> 1.4.2-4
 - Do not use git annex for the source (antoni@redhat.com)
 
